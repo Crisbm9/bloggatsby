@@ -12,7 +12,9 @@ const Header = () => {
         width={200}
       />
       </a>
-      <p>header</p>
+      <br></br>
+      <p>BLOGGATSBY</p>
+      <br></br>
   </header>)}
 
 
