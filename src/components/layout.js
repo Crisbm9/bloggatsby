@@ -3,9 +3,12 @@ import "./layout.css"
 import Header from "./header";
 import Footer from "./footer";
 
+
 const Layout=({children})=>{
   return(<>
-<Header></Header>
+<Header>
+
+</Header>
 
 <main>{children}</main>
 

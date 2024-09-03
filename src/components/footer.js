@@ -14,7 +14,7 @@ const Footer = () => {
     
     <p>© {new Date().getFullYear()} &middot; 
     {` `} bloggatsby</p>
-<a className='a' href="#">footer</a>
+    <br></br>
 
   </footer>
   );

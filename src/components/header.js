@@ -1,20 +1,18 @@
 import * as React from "react"
 
-import { StaticImage } from "gatsby-plugin-image"
+
 import "./layout.css"
+import MenuNavegacion from "./menunavegacion"
 
 const Header = () => {
   return(
   <header>
-    <a href="/">
-    <StaticImage
-        src="../images/icon.png"
-        width={200}
-      />
-      </a>
+
+   
       <br></br>
-      <p>BLOGGATSBY</p>
+      <h1>BLOGGATSBY</h1>
       <br></br>
+      <MenuNavegacion></MenuNavegacion>
   </header>)}
 
 

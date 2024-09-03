@@ -1,7 +1,67 @@
 header{
   background-color: antiquewhite;
+  text-align: center;
 }
 footer{
   background-color: black;
   color: antiquewhite;
+}
+.presentacion{
+  margin: 2em;
+}
+
+.nav-links {
+  background-color: rgb(190, 169, 169);
+  padding: 1em;
+  display: flex;
+  gap: 30px; 
+}
+
+img{
+  width: 200px;
+}
+
+.presentacion1 {
+  margin: 2em;
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start; 
+}
+
+.foto {
+  margin-right: 80px;
+}
+
+.foto img {
+  width: 150px; 
+  height: auto; 
+}
+
+.presentacion1 h1 {
+  margin-top: 0; 
+}
+
+.presentacion1 p {
+  max-width: 500px; 
+}
+.entrada{
+  background-color: bisque;
+}
+.contenedor-entradas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+}
+
+.entrada {
+  background-color: #f4f4f4; 
+  padding: 15px; 
+  border-radius: 8px; 
+  text-align: center; 
+}
+
+.entrada img {
+  max-width: 100%; 
+  height: auto; 
+  margin-bottom: 10px; 
 }
